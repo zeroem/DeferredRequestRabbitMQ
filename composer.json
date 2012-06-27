@@ -1,9 +1,12 @@
 {
-    "name": "darrell/DeferredRequestRabbitMQBundle",
+    "name": "zeroem/deferred-request-rabbitmq",
     "description": "RabbitMQ Implementation of the deferred-request-queue-manager",
     "require": {
         "oldsound/rabbitmq-bundle": "dev-master",
         "zeroem/deferred-request-bundle": "dev-master"
+    },
+    "provide": {
+        "deferred-request-queue-manager": "*"
     },
     "authors": [
         {
